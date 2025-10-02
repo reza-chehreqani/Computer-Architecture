@@ -1,0 +1,1066 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Jun  3 13:58:35 2025
+# Process ID: 3264
+# Current directory: D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1
+# Command line: vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+# Log file: D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/design_1_wrapper.vds
+# Journal file: D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Apps/Xilinx/Vivado/2018.3/data/ip'.
+add_files: Time (s): cpu = 00:00:06 ; elapsed = 00:03:48 . Memory (MB): peak = 517.754 ; gain = 192.750
+Command: synth_design -top design_1_wrapper -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 9088 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 631.609 ; gain = 105.211
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_wrapper' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:21]
+INFO: [Synth 8-6157] synthesizing module 'design_1' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_1_ADDER_0_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_ADDER_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ADDER_0_0' (1#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_ADDER_0_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'ADDER_0' of module 'design_1_ADDER_0_0' requires 5 connections, but only 4 given [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:117]
+INFO: [Synth 8-6157] synthesizing module 'design_1_ALU_0_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_ALU_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ALU_0_0' (2#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_ALU_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_Condition_Check_0_2' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Condition_Check_0_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_Condition_Check_0_2' (3#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Condition_Check_0_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_ControlUnit_0_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_ControlUnit_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ControlUnit_0_0' (4#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_ControlUnit_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_ForwardingUnit_0_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_ForwardingUnit_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ForwardingUnit_0_0' (5#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_ForwardingUnit_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_HazardUnit_0_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_HazardUnit_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_HazardUnit_0_0' (6#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_HazardUnit_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_IF_0_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_IF_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_IF_0_0' (7#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_IF_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_MUX4_0_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_MUX4_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_MUX4_0_0' (8#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_MUX4_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_MUX9_0_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_MUX9_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_MUX9_0_0' (9#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_MUX9_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_MUX_0_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_MUX_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_MUX_0_0' (10#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_MUX_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_NOT1_0_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_NOT1_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_NOT1_0_0' (11#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_NOT1_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_NOT1_0_1' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_NOT1_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_NOT1_0_1' (12#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_NOT1_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_NOT1_2_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_NOT1_2_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_NOT1_2_0' (13#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_NOT1_2_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_OR1_0_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_OR1_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_OR1_0_0' (14#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_OR1_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_OR1_1_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_OR1_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_OR1_1_0' (15#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_OR1_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_OR1_2_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_OR1_2_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_OR1_2_0' (16#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_OR1_2_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_Register13_0_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register13_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_Register13_0_0' (17#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register13_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_Register1_0_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register1_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_Register1_0_0' (18#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register1_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_Register1_1_1' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register1_1_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_Register1_1_1' (19#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register1_1_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_Register1_1_2' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register1_1_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_Register1_1_2' (20#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register1_1_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_Register24_0_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register24_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_Register24_0_0' (21#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register24_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_Register3_0_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register3_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_Register3_0_0' (22#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register3_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_Register4_0_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register4_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_Register4_0_0' (23#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register4_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_Register4_1_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register4_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_Register4_1_0' (24#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register4_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_Register4_1_1' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register4_1_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_Register4_1_1' (25#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register4_1_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_Register4_3_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register4_3_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_Register4_3_0' (26#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register4_3_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_Register4_3_1' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register4_3_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_Register4_3_1' (27#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register4_3_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_Register9_0_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register9_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_Register9_0_0' (28#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register9_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_RegisterFile_0_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_RegisterFile_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_RegisterFile_0_0' (29#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_RegisterFile_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_Register_0_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_Register_0_0' (30#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_Register_0_1' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_Register_0_1' (31#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_Register_2_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register_2_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_Register_2_0' (32#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register_2_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_Register_3_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register_3_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_Register_3_0' (33#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register_3_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_Register_0_4' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register_0_4_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_Register_0_4' (34#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register_0_4_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_Register_1_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_Register_1_0' (35#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_Register_1_1' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register_1_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_Register_1_1' (36#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register_1_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_Register_2_1' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register_2_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_Register_2_1' (37#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register_2_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_Register_3_1' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register_3_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_Register_3_1' (38#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Register_3_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_Status_Register_0_1' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Status_Register_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_Status_Register_0_1' (39#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Status_Register_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_Val2Genrate_0_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Val2Genrate_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_Val2Genrate_0_0' (40#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_Val2Genrate_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_debouncer_0_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_debouncer_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_debouncer_0_0' (41#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_debouncer_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_dist_mem_gen_0_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_dist_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_dist_mem_gen_0_0' (42#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_dist_mem_gen_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_dist_mem_gen_1_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_dist_mem_gen_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_dist_mem_gen_1_0' (43#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_dist_mem_gen_1_0_stub.v:6]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:395]
+INFO: [Synth 8-6157] synthesizing module 'design_1_ila_0_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_ila_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ila_0_0' (44#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_ila_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_mux3to1_0_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_mux3to1_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_mux3to1_0_0' (45#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_mux3to1_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_mux3to1_1_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_mux3to1_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_mux3to1_1_0' (46#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_mux3to1_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_sign_extend_0_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_sign_extend_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_sign_extend_0_0' (47#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_sign_extend_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_vio_0_0' [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_vio_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_vio_0_0' (48#1) [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/.Xil/Vivado-3264-DESKTOP-PAN1RO4/realtime/design_1_vio_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlconcat_0_0' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlconcat_0_0/synth/design_1_xlconcat_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_1_xlconcat' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/2f66/hdl/xlconcat_v2_1_vl_rfs.v:14]
+	Parameter IN0_WIDTH bound to: 4 - type: integer 
+	Parameter IN1_WIDTH bound to: 1 - type: integer 
+	Parameter IN2_WIDTH bound to: 1 - type: integer 
+	Parameter IN3_WIDTH bound to: 1 - type: integer 
+	Parameter IN4_WIDTH bound to: 1 - type: integer 
+	Parameter IN5_WIDTH bound to: 1 - type: integer 
+	Parameter IN6_WIDTH bound to: 1 - type: integer 
+	Parameter IN7_WIDTH bound to: 1 - type: integer 
+	Parameter IN8_WIDTH bound to: 1 - type: integer 
+	Parameter IN9_WIDTH bound to: 1 - type: integer 
+	Parameter IN10_WIDTH bound to: 1 - type: integer 
+	Parameter IN11_WIDTH bound to: 1 - type: integer 
+	Parameter IN12_WIDTH bound to: 1 - type: integer 
+	Parameter IN13_WIDTH bound to: 1 - type: integer 
+	Parameter IN14_WIDTH bound to: 1 - type: integer 
+	Parameter IN15_WIDTH bound to: 1 - type: integer 
+	Parameter IN16_WIDTH bound to: 1 - type: integer 
+	Parameter IN17_WIDTH bound to: 1 - type: integer 
+	Parameter IN18_WIDTH bound to: 1 - type: integer 
+	Parameter IN19_WIDTH bound to: 1 - type: integer 
+	Parameter IN20_WIDTH bound to: 1 - type: integer 
+	Parameter IN21_WIDTH bound to: 1 - type: integer 
+	Parameter IN22_WIDTH bound to: 1 - type: integer 
+	Parameter IN23_WIDTH bound to: 1 - type: integer 
+	Parameter IN24_WIDTH bound to: 1 - type: integer 
+	Parameter IN25_WIDTH bound to: 1 - type: integer 
+	Parameter IN26_WIDTH bound to: 1 - type: integer 
+	Parameter IN27_WIDTH bound to: 1 - type: integer 
+	Parameter IN28_WIDTH bound to: 1 - type: integer 
+	Parameter IN29_WIDTH bound to: 1 - type: integer 
+	Parameter IN30_WIDTH bound to: 1 - type: integer 
+	Parameter IN31_WIDTH bound to: 1 - type: integer 
+	Parameter dout_width bound to: 9 - type: integer 
+	Parameter NUM_PORTS bound to: 6 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_1_xlconcat' (49#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/2f66/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlconcat_0_0' (50#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlconcat_0_0/synth/design_1_xlconcat_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlconcat_1_0' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlconcat_1_0/synth/design_1_xlconcat_1_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_1_xlconcat__parameterized0' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/2f66/hdl/xlconcat_v2_1_vl_rfs.v:14]
+	Parameter IN0_WIDTH bound to: 1 - type: integer 
+	Parameter IN1_WIDTH bound to: 12 - type: integer 
+	Parameter IN2_WIDTH bound to: 1 - type: integer 
+	Parameter IN3_WIDTH bound to: 1 - type: integer 
+	Parameter IN4_WIDTH bound to: 1 - type: integer 
+	Parameter IN5_WIDTH bound to: 1 - type: integer 
+	Parameter IN6_WIDTH bound to: 1 - type: integer 
+	Parameter IN7_WIDTH bound to: 1 - type: integer 
+	Parameter IN8_WIDTH bound to: 1 - type: integer 
+	Parameter IN9_WIDTH bound to: 1 - type: integer 
+	Parameter IN10_WIDTH bound to: 1 - type: integer 
+	Parameter IN11_WIDTH bound to: 1 - type: integer 
+	Parameter IN12_WIDTH bound to: 1 - type: integer 
+	Parameter IN13_WIDTH bound to: 1 - type: integer 
+	Parameter IN14_WIDTH bound to: 1 - type: integer 
+	Parameter IN15_WIDTH bound to: 1 - type: integer 
+	Parameter IN16_WIDTH bound to: 1 - type: integer 
+	Parameter IN17_WIDTH bound to: 1 - type: integer 
+	Parameter IN18_WIDTH bound to: 1 - type: integer 
+	Parameter IN19_WIDTH bound to: 1 - type: integer 
+	Parameter IN20_WIDTH bound to: 1 - type: integer 
+	Parameter IN21_WIDTH bound to: 1 - type: integer 
+	Parameter IN22_WIDTH bound to: 1 - type: integer 
+	Parameter IN23_WIDTH bound to: 1 - type: integer 
+	Parameter IN24_WIDTH bound to: 1 - type: integer 
+	Parameter IN25_WIDTH bound to: 1 - type: integer 
+	Parameter IN26_WIDTH bound to: 1 - type: integer 
+	Parameter IN27_WIDTH bound to: 1 - type: integer 
+	Parameter IN28_WIDTH bound to: 1 - type: integer 
+	Parameter IN29_WIDTH bound to: 1 - type: integer 
+	Parameter IN30_WIDTH bound to: 1 - type: integer 
+	Parameter IN31_WIDTH bound to: 1 - type: integer 
+	Parameter dout_width bound to: 13 - type: integer 
+	Parameter NUM_PORTS bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_1_xlconcat__parameterized0' (50#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/2f66/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlconcat_1_0' (51#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlconcat_1_0/synth/design_1_xlconcat_1_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlconstant_0_1' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_1/synth/design_1_xlconstant_0_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_5_xlconstant' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/4649/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 0 - type: integer 
+	Parameter CONST_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_5_xlconstant' (52#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/4649/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlconstant_0_1' (53#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_0_1/synth/design_1_xlconstant_0_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlconstant_2_1' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_2_1/synth/design_1_xlconstant_2_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_5_xlconstant__parameterized0' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/4649/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 1 - type: integer 
+	Parameter CONST_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_5_xlconstant__parameterized0' (53#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/4649/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlconstant_2_1' (54#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_2_1/synth/design_1_xlconstant_2_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlconstant_3_0' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_3_0/synth/design_1_xlconstant_3_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_5_xlconstant__parameterized1' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/4649/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 0 - type: integer 
+	Parameter CONST_WIDTH bound to: 9 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_5_xlconstant__parameterized1' (54#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/4649/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlconstant_3_0' (55#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_3_0/synth/design_1_xlconstant_3_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlconstant_9_0' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_9_0/synth/design_1_xlconstant_9_0.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlconstant_9_0' (56#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlconstant_9_0/synth/design_1_xlconstant_9_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlslice_0_0' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_0/synth/design_1_xlslice_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 19 - type: integer 
+	Parameter DIN_TO bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice' (57#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlslice_0_0' (58#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_0/synth/design_1_xlslice_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlslice_0_1' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_1/synth/design_1_xlslice_0_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized0' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 3 - type: integer 
+	Parameter DIN_TO bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized0' (58#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlslice_0_1' (59#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_1/synth/design_1_xlslice_0_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlslice_9_1' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_9_1/synth/design_1_xlslice_9_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized1' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 11 - type: integer 
+	Parameter DIN_TO bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized1' (59#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlslice_9_1' (60#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_9_1/synth/design_1_xlslice_9_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlslice_11_0' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_11_0/synth/design_1_xlslice_11_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized2' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 12 - type: integer 
+	Parameter DIN_TO bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized2' (60#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlslice_11_0' (61#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_11_0/synth/design_1_xlslice_11_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlslice_10_1' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_10_1/synth/design_1_xlslice_10_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized3' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 23 - type: integer 
+	Parameter DIN_TO bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized3' (61#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlslice_10_1' (62#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_10_1/synth/design_1_xlslice_10_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlslice_13_0' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_13_0/synth/design_1_xlslice_13_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized4' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 15 - type: integer 
+	Parameter DIN_TO bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized4' (62#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlslice_13_0' (63#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_13_0/synth/design_1_xlslice_13_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlslice_14_0' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_14_0/synth/design_1_xlslice_14_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized5' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 9 - type: integer 
+	Parameter DIN_FROM bound to: 6 - type: integer 
+	Parameter DIN_TO bound to: 6 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized5' (63#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlslice_14_0' (64#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_14_0/synth/design_1_xlslice_14_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlslice_14_1' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_14_1/synth/design_1_xlslice_14_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized6' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 9 - type: integer 
+	Parameter DIN_FROM bound to: 7 - type: integer 
+	Parameter DIN_TO bound to: 7 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized6' (64#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlslice_14_1' (65#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_14_1/synth/design_1_xlslice_14_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlslice_16_0' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_16_0/synth/design_1_xlslice_16_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized7' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 9 - type: integer 
+	Parameter DIN_FROM bound to: 3 - type: integer 
+	Parameter DIN_TO bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized7' (65#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlslice_16_0' (66#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_16_0/synth/design_1_xlslice_16_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlslice_17_0' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_17_0/synth/design_1_xlslice_17_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized8' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 9 - type: integer 
+	Parameter DIN_FROM bound to: 4 - type: integer 
+	Parameter DIN_TO bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized8' (66#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlslice_17_0' (67#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_17_0/synth/design_1_xlslice_17_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlslice_18_0' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_18_0/synth/design_1_xlslice_18_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized9' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 9 - type: integer 
+	Parameter DIN_FROM bound to: 5 - type: integer 
+	Parameter DIN_TO bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized9' (67#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlslice_18_0' (68#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_18_0/synth/design_1_xlslice_18_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlslice_19_0' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_19_0/synth/design_1_xlslice_19_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized10' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 9 - type: integer 
+	Parameter DIN_FROM bound to: 8 - type: integer 
+	Parameter DIN_TO bound to: 6 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized10' (68#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlslice_19_0' (69#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_19_0/synth/design_1_xlslice_19_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlslice_0_2' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_2/synth/design_1_xlslice_0_2.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlslice_0_2' (70#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_0_2/synth/design_1_xlslice_0_2.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlslice_20_0' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_20_0/synth/design_1_xlslice_20_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized11' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 3 - type: integer 
+	Parameter DIN_FROM bound to: 0 - type: integer 
+	Parameter DIN_TO bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized11' (70#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlslice_20_0' (71#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_20_0/synth/design_1_xlslice_20_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlslice_20_1' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_20_1/synth/design_1_xlslice_20_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized12' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 3 - type: integer 
+	Parameter DIN_FROM bound to: 1 - type: integer 
+	Parameter DIN_TO bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized12' (71#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlslice_20_1' (72#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_20_1/synth/design_1_xlslice_20_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlslice_20_2' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_20_2/synth/design_1_xlslice_20_2.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized13' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 3 - type: integer 
+	Parameter DIN_FROM bound to: 2 - type: integer 
+	Parameter DIN_TO bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized13' (72#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlslice_20_2' (73#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_20_2/synth/design_1_xlslice_20_2.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlslice_23_0' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_23_0/synth/design_1_xlslice_23_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized14' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 9 - type: integer 
+	Parameter DIN_TO bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized14' (73#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlslice_23_0' (74#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_23_0/synth/design_1_xlslice_23_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlslice_3_0' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_3_0/synth/design_1_xlslice_3_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized15' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 31 - type: integer 
+	Parameter DIN_TO bound to: 28 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized15' (74#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlslice_3_0' (75#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_3_0/synth/design_1_xlslice_3_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlslice_3_1' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_3_1/synth/design_1_xlslice_3_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized16' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 25 - type: integer 
+	Parameter DIN_TO bound to: 25 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized16' (75#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlslice_3_1' (76#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_3_1/synth/design_1_xlslice_3_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlslice_5_2' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_5_2/synth/design_1_xlslice_5_2.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlslice_5_2' (77#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_5_2/synth/design_1_xlslice_5_2.v:57]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlslice_6_0' [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_6_0/synth/design_1_xlslice_6_0.v:57]
+INFO: [Common 17-14] Message 'Synth 8-6157' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 27 - type: integer 
+	Parameter DIN_TO bound to: 26 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized17' (77#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlslice_6_0' (78#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_xlslice_6_0/synth/design_1_xlslice_6_0.v:57]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 20 - type: integer 
+	Parameter DIN_TO bound to: 20 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized18' (78#1) [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Common 17-14] Message 'Synth 8-6155' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 24 - type: integer 
+	Parameter DIN_TO bound to: 21 - type: integer 
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'vio_0'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:440]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'HazardUnit_0'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:153]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ForwardingUnit_0'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:143]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'debouncer_0'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:382]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ila_0'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:395]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Status_Register_0'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:370]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Register_8'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:363]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Register_7'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:356]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Register_6'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:349]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Register_5'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:342]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Register_4'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:335]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Register_3'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:328]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Register_2'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:321]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Register_1'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:314]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Register_0'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:307]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'RegisterFile_0'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:291]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Register9_0'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:284]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Register4_4'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:277]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Register4_3'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:270]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Register4_2'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:263]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Register4_1'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:256]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Register4_0'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:249]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Register3_0'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:243]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Register24_0'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:236]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Register1_2'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:229]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Register1_1'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:222]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Register1_0'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:215]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Register13_0'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:208]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'IF_0'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:164]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'MUX_0'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:182]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'mux3to1_1'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:431]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'mux3to1_0'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:425]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'xlslice_9'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:532]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'xlslice_8'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:529]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'xlslice_7'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:526]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'xlslice_6'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:523]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'xlslice_4'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:517]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'xlslice_3'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:514]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'xlslice_2'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:499]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'xlslice_13'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:478]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'xlslice_12'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:475]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'xlslice_10'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:469]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'xlslice_1'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:466]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'xlslice_0'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:463]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'xlslice_19'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:496]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'xlslice_18'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:493]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'xlslice_17'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:490]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'xlslice_16'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:487]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'xlslice_15'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:484]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'xlslice_14'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:481]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ADDER_0'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:117]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'Val2Genrate_0'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:377]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'sign_extend_0'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:437]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'ALU_0'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:122]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'xlslice_22'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:508]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'xlslice_21'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:505]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'xlslice_20'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:502]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'xlslice_23'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:511]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'dist_mem_gen_1'. This will prevent further optimization [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/synth/design_1.v:389]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[31]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[30]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[29]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[28]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[27]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[26]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[24]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[23]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[22]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[21]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[20]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[19]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[18]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[17]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[16]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[15]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[14]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[13]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[12]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[11]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[10]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[9]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[8]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[7]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[6]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[5]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[4]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[3]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[2]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[1]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized16 has unconnected port Din[0]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized19 has unconnected port Din[31]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized19 has unconnected port Din[30]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized19 has unconnected port Din[29]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized19 has unconnected port Din[28]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized19 has unconnected port Din[27]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized19 has unconnected port Din[26]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized19 has unconnected port Din[25]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized19 has unconnected port Din[20]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized19 has unconnected port Din[19]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized19 has unconnected port Din[18]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized19 has unconnected port Din[17]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized19 has unconnected port Din[16]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized19 has unconnected port Din[15]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized19 has unconnected port Din[14]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized19 has unconnected port Din[13]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized19 has unconnected port Din[12]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized19 has unconnected port Din[11]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized19 has unconnected port Din[10]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized19 has unconnected port Din[9]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized19 has unconnected port Din[8]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized19 has unconnected port Din[7]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized19 has unconnected port Din[6]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized19 has unconnected port Din[5]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized19 has unconnected port Din[4]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized19 has unconnected port Din[3]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized19 has unconnected port Din[2]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized19 has unconnected port Din[1]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized19 has unconnected port Din[0]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[31]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[30]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[29]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[28]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[27]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[26]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[25]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[24]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[23]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[22]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[21]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[19]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[18]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[17]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[16]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[15]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[14]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[13]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[12]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[11]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[10]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[9]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[8]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[7]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[6]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[5]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[4]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[3]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[2]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[1]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized18 has unconnected port Din[0]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized17 has unconnected port Din[31]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized17 has unconnected port Din[30]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized17 has unconnected port Din[29]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized17 has unconnected port Din[28]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized17 has unconnected port Din[25]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized17 has unconnected port Din[24]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized17 has unconnected port Din[23]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized17 has unconnected port Din[22]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized17 has unconnected port Din[21]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized17 has unconnected port Din[20]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 687.594 ; gain = 161.195
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 687.594 ; gain = 161.195
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 687.594 ; gain = 161.195
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_IF_0_0/design_1_IF_0_0/design_1_IF_0_0_in_context.xdc] for cell 'design_1_i/IF_0'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_IF_0_0/design_1_IF_0_0/design_1_IF_0_0_in_context.xdc] for cell 'design_1_i/IF_0'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register_0_0/design_1_Register_0_0/design_1_Register_0_0_in_context.xdc] for cell 'design_1_i/Register_0'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register_0_0/design_1_Register_0_0/design_1_Register_0_0_in_context.xdc] for cell 'design_1_i/Register_0'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register_0_1/design_1_Register_0_1/design_1_Register_0_1_in_context.xdc] for cell 'design_1_i/Register_1'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register_0_1/design_1_Register_0_1/design_1_Register_0_1_in_context.xdc] for cell 'design_1_i/Register_1'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_ila_0_0/design_1_ila_0_0/design_1_ila_0_0_in_context.xdc] for cell 'design_1_i/ila_0'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_ila_0_0/design_1_ila_0_0/design_1_ila_0_0_in_context.xdc] for cell 'design_1_i/ila_0'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register_0_4/design_1_Register_0_4/design_1_Register_0_4_in_context.xdc] for cell 'design_1_i/Register_4'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register_0_4/design_1_Register_0_4/design_1_Register_0_4_in_context.xdc] for cell 'design_1_i/Register_4'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_ControlUnit_0_0/design_1_ControlUnit_0_0/design_1_ControlUnit_0_0_in_context.xdc] for cell 'design_1_i/ControlUnit_0'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_ControlUnit_0_0/design_1_ControlUnit_0_0/design_1_ControlUnit_0_0_in_context.xdc] for cell 'design_1_i/ControlUnit_0'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_RegisterFile_0_0/design_1_RegisterFile_0_0/design_1_RegisterFile_0_0_in_context.xdc] for cell 'design_1_i/RegisterFile_0'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_RegisterFile_0_0/design_1_RegisterFile_0_0/design_1_RegisterFile_0_0_in_context.xdc] for cell 'design_1_i/RegisterFile_0'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_MUX4_0_0/design_1_MUX4_0_0/design_1_MUX4_0_0_in_context.xdc] for cell 'design_1_i/MUX4_0'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_MUX4_0_0/design_1_MUX4_0_0/design_1_MUX4_0_0_in_context.xdc] for cell 'design_1_i/MUX4_0'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register_1_0/design_1_Register_1_0/design_1_Register_1_0_in_context.xdc] for cell 'design_1_i/Register_5'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register_1_0/design_1_Register_1_0/design_1_Register_1_0_in_context.xdc] for cell 'design_1_i/Register_5'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register_1_1/design_1_Register_1_1/design_1_Register_1_1_in_context.xdc] for cell 'design_1_i/Register_6'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register_1_1/design_1_Register_1_1/design_1_Register_1_1_in_context.xdc] for cell 'design_1_i/Register_6'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_OR1_0_0/design_1_OR1_0_0/design_1_OR1_0_0_in_context.xdc] for cell 'design_1_i/OR1_0'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_OR1_0_0/design_1_OR1_0_0/design_1_OR1_0_0_in_context.xdc] for cell 'design_1_i/OR1_0'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_MUX9_0_0/design_1_MUX9_0_0/design_1_MUX9_0_0_in_context.xdc] for cell 'design_1_i/MUX9_0'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_MUX9_0_0/design_1_MUX9_0_0/design_1_MUX9_0_0_in_context.xdc] for cell 'design_1_i/MUX9_0'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_OR1_1_0/design_1_OR1_1_0/design_1_OR1_1_0_in_context.xdc] for cell 'design_1_i/OR1_1'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_OR1_1_0/design_1_OR1_1_0/design_1_OR1_1_0_in_context.xdc] for cell 'design_1_i/OR1_1'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_NOT1_0_0/design_1_NOT1_0_0/design_1_NOT1_0_0_in_context.xdc] for cell 'design_1_i/NOT1_0'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_NOT1_0_0/design_1_NOT1_0_0/design_1_NOT1_0_0_in_context.xdc] for cell 'design_1_i/NOT1_0'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_NOT1_0_1/design_1_NOT1_0_1/design_1_NOT1_0_1_in_context.xdc] for cell 'design_1_i/NOT1_1'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_NOT1_0_1/design_1_NOT1_0_1/design_1_NOT1_0_1_in_context.xdc] for cell 'design_1_i/NOT1_1'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Condition_Check_0_2/design_1_Condition_Check_0_2/design_1_Condition_Check_0_2_in_context.xdc] for cell 'design_1_i/Condition_Check_0'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Condition_Check_0_2/design_1_Condition_Check_0_2/design_1_Condition_Check_0_2_in_context.xdc] for cell 'design_1_i/Condition_Check_0'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_dist_mem_gen_0_0/design_1_dist_mem_gen_0_0/design_1_dist_mem_gen_0_0_in_context.xdc] for cell 'design_1_i/dist_mem_gen_0'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_dist_mem_gen_0_0/design_1_dist_mem_gen_0_0/design_1_dist_mem_gen_0_0_in_context.xdc] for cell 'design_1_i/dist_mem_gen_0'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register9_0_0/design_1_Register9_0_0/design_1_Register9_0_0_in_context.xdc] for cell 'design_1_i/Register9_0'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register9_0_0/design_1_Register9_0_0/design_1_Register9_0_0_in_context.xdc] for cell 'design_1_i/Register9_0'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register13_0_0/design_1_Register13_0_0/design_1_Register13_0_0_in_context.xdc] for cell 'design_1_i/Register13_0'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register13_0_0/design_1_Register13_0_0/design_1_Register13_0_0_in_context.xdc] for cell 'design_1_i/Register13_0'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register24_0_0/design_1_Register24_0_0/design_1_Register24_0_0_in_context.xdc] for cell 'design_1_i/Register24_0'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register24_0_0/design_1_Register24_0_0/design_1_Register24_0_0_in_context.xdc] for cell 'design_1_i/Register24_0'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register4_0_0/design_1_Register4_0_0/design_1_Register4_0_0_in_context.xdc] for cell 'design_1_i/Register4_0'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register4_0_0/design_1_Register4_0_0/design_1_Register4_0_0_in_context.xdc] for cell 'design_1_i/Register4_0'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_OR1_2_0/design_1_OR1_2_0/design_1_OR1_2_0_in_context.xdc] for cell 'design_1_i/OR1_2'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_OR1_2_0/design_1_OR1_2_0/design_1_OR1_2_0_in_context.xdc] for cell 'design_1_i/OR1_2'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Val2Genrate_0_0/design_1_Val2Genrate_0_0/design_1_Val2Genrate_0_0_in_context.xdc] for cell 'design_1_i/Val2Genrate_0'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Val2Genrate_0_0/design_1_Val2Genrate_0_0/design_1_Val2Genrate_0_0_in_context.xdc] for cell 'design_1_i/Val2Genrate_0'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_sign_extend_0_0/design_1_sign_extend_0_0/design_1_sign_extend_0_0_in_context.xdc] for cell 'design_1_i/sign_extend_0'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_sign_extend_0_0/design_1_sign_extend_0_0/design_1_sign_extend_0_0_in_context.xdc] for cell 'design_1_i/sign_extend_0'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_ADDER_0_0/design_1_ADDER_0_0/design_1_ADDER_0_0_in_context.xdc] for cell 'design_1_i/ADDER_0'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_ADDER_0_0/design_1_ADDER_0_0/design_1_ADDER_0_0_in_context.xdc] for cell 'design_1_i/ADDER_0'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Status_Register_0_1/design_1_Status_Register_0_1/design_1_Status_Register_0_1_in_context.xdc] for cell 'design_1_i/Status_Register_0'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Status_Register_0_1/design_1_Status_Register_0_1/design_1_Status_Register_0_1_in_context.xdc] for cell 'design_1_i/Status_Register_0'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_ALU_0_0/design_1_ALU_0_0/design_1_ALU_0_0_in_context.xdc] for cell 'design_1_i/ALU_0'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_ALU_0_0/design_1_ALU_0_0/design_1_ALU_0_0_in_context.xdc] for cell 'design_1_i/ALU_0'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register1_0_0/design_1_Register1_0_0/design_1_Register1_0_0_in_context.xdc] for cell 'design_1_i/Register1_0'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register1_0_0/design_1_Register1_0_0/design_1_Register1_0_0_in_context.xdc] for cell 'design_1_i/Register1_0'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register3_0_0/design_1_Register3_0_0/design_1_Register3_0_0_in_context.xdc] for cell 'design_1_i/Register3_0'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register3_0_0/design_1_Register3_0_0/design_1_Register3_0_0_in_context.xdc] for cell 'design_1_i/Register3_0'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register4_1_0/design_1_Register4_1_0/design_1_Register4_1_0_in_context.xdc] for cell 'design_1_i/Register4_1'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register4_1_0/design_1_Register4_1_0/design_1_Register4_1_0_in_context.xdc] for cell 'design_1_i/Register4_1'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register_2_0/design_1_Register_2_0/design_1_Register_2_0_in_context.xdc] for cell 'design_1_i/Register_2'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register_2_0/design_1_Register_2_0/design_1_Register_2_0_in_context.xdc] for cell 'design_1_i/Register_2'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register_2_1/design_1_Register_2_1/design_1_Register_2_1_in_context.xdc] for cell 'design_1_i/Register_7'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register_2_1/design_1_Register_2_1/design_1_Register_2_1_in_context.xdc] for cell 'design_1_i/Register_7'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_debouncer_0_0/design_1_debouncer_0_0/design_1_debouncer_0_0_in_context.xdc] for cell 'design_1_i/debouncer_0'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_debouncer_0_0/design_1_debouncer_0_0/design_1_debouncer_0_0_in_context.xdc] for cell 'design_1_i/debouncer_0'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_dist_mem_gen_1_0/design_1_dist_mem_gen_1_0/design_1_dist_mem_gen_1_0_in_context.xdc] for cell 'design_1_i/dist_mem_gen_1'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_dist_mem_gen_1_0/design_1_dist_mem_gen_1_0/design_1_dist_mem_gen_1_0_in_context.xdc] for cell 'design_1_i/dist_mem_gen_1'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register1_1_1/design_1_Register1_1_1/design_1_Register1_1_1_in_context.xdc] for cell 'design_1_i/Register1_1'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register1_1_1/design_1_Register1_1_1/design_1_Register1_1_1_in_context.xdc] for cell 'design_1_i/Register1_1'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register1_1_2/design_1_Register1_1_2/design_1_Register1_1_2_in_context.xdc] for cell 'design_1_i/Register1_2'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register1_1_2/design_1_Register1_1_2/design_1_Register1_1_2_in_context.xdc] for cell 'design_1_i/Register1_2'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register4_1_1/design_1_Register4_1_1/design_1_Register4_1_1_in_context.xdc] for cell 'design_1_i/Register4_2'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register4_1_1/design_1_Register4_1_1/design_1_Register4_1_1_in_context.xdc] for cell 'design_1_i/Register4_2'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register_3_0/design_1_Register_3_0/design_1_Register_3_0_in_context.xdc] for cell 'design_1_i/Register_3'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register_3_0/design_1_Register_3_0/design_1_Register_3_0_in_context.xdc] for cell 'design_1_i/Register_3'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register_3_1/design_1_Register_3_1/design_1_Register_3_1_in_context.xdc] for cell 'design_1_i/Register_8'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register_3_1/design_1_Register_3_1/design_1_Register_3_1_in_context.xdc] for cell 'design_1_i/Register_8'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_MUX_0_0/design_1_MUX_0_0/design_1_MUX_0_0_in_context.xdc] for cell 'design_1_i/MUX_0'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_MUX_0_0/design_1_MUX_0_0/design_1_MUX_0_0_in_context.xdc] for cell 'design_1_i/MUX_0'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_HazardUnit_0_0/design_1_HazardUnit_0_0/design_1_HazardUnit_0_0_in_context.xdc] for cell 'design_1_i/HazardUnit_0'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_HazardUnit_0_0/design_1_HazardUnit_0_0/design_1_HazardUnit_0_0_in_context.xdc] for cell 'design_1_i/HazardUnit_0'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_NOT1_2_0/design_1_NOT1_2_0/design_1_NOT1_2_0_in_context.xdc] for cell 'design_1_i/NOT1_2'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_NOT1_2_0/design_1_NOT1_2_0/design_1_NOT1_2_0_in_context.xdc] for cell 'design_1_i/NOT1_2'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_ForwardingUnit_0_0/design_1_ForwardingUnit_0_0/design_1_ForwardingUnit_0_0_in_context.xdc] for cell 'design_1_i/ForwardingUnit_0'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_ForwardingUnit_0_0/design_1_ForwardingUnit_0_0/design_1_ForwardingUnit_0_0_in_context.xdc] for cell 'design_1_i/ForwardingUnit_0'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register4_3_0/design_1_Register4_3_0/design_1_Register4_3_0_in_context.xdc] for cell 'design_1_i/Register4_3'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register4_3_0/design_1_Register4_3_0/design_1_Register4_3_0_in_context.xdc] for cell 'design_1_i/Register4_3'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register4_3_1/design_1_Register4_3_1/design_1_Register4_3_1_in_context.xdc] for cell 'design_1_i/Register4_4'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_Register4_3_1/design_1_Register4_3_1/design_1_Register4_3_1_in_context.xdc] for cell 'design_1_i/Register4_4'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_mux3to1_0_0/design_1_mux3to1_0_0/design_1_mux3to1_0_0_in_context.xdc] for cell 'design_1_i/mux3to1_0'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_mux3to1_0_0/design_1_mux3to1_0_0/design_1_mux3to1_0_0_in_context.xdc] for cell 'design_1_i/mux3to1_0'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_mux3to1_1_0/design_1_mux3to1_1_0/design_1_mux3to1_1_0_in_context.xdc] for cell 'design_1_i/mux3to1_1'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_mux3to1_1_0/design_1_mux3to1_1_0/design_1_mux3to1_1_0_in_context.xdc] for cell 'design_1_i/mux3to1_1'
+Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_vio_0_0/design_1_vio_0_0/design_1_vio_0_0_in_context.xdc] for cell 'design_1_i/vio_0'
+Finished Parsing XDC File [d:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/ip/design_1_vio_0_0/design_1_vio_0_0/design_1_vio_0_0_in_context.xdc] for cell 'design_1_i/vio_0'
+Parsing XDC File [D:/Reza/Computer Architecture/Lab/first session/pin_assignment.xdc]
+Finished Parsing XDC File [D:/Reza/Computer Architecture/Lab/first session/pin_assignment.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Reza/Computer Architecture/Lab/first session/pin_assignment.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/dont_touch.xdc]
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1012.781 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1012.844 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1012.844 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 1012.844 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1012.844 ; gain = 486.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1012.844 ; gain = 486.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for design_1_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/IF_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/Register_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/Register_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlconstant_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/ila_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/Register_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/ControlUnit_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/RegisterFile_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/MUX4_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/Register_5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/Register_6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/OR1_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/MUX9_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlconcat_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlconstant_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/OR1_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/NOT1_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/NOT1_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/Condition_Check_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/dist_mem_gen_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/Register9_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/Register13_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlconcat_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_9. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_12. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/Register24_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_13. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/Register4_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/OR1_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_14. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_15. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/Val2Genrate_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_16. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/sign_extend_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/ADDER_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlconstant_9. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/Status_Register_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_17. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/ALU_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_18. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/Register1_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_19. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/Register3_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/Register4_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/Register_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/Register_7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlconstant_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/debouncer_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/dist_mem_gen_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_20. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_21. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_22. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/Register1_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/Register1_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/Register4_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/Register_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/Register_8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/MUX_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/HazardUnit_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_23. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/NOT1_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/xlslice_11. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/ForwardingUnit_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/Register4_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/Register4_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/mux3to1_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/mux3to1_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/vio_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1012.844 ; gain = 486.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1012.844 ; gain = 486.445
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1012.844 ; gain = 486.445
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1012.844 ; gain = 486.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1012.844 ; gain = 486.445
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1014.562 ; gain = 488.164
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1014.562 ; gain = 488.164
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1014.562 ; gain = 488.164
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1014.562 ; gain = 488.164
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1014.562 ; gain = 488.164
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1014.562 ; gain = 488.164
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1014.562 ; gain = 488.164
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------------------+----------+
+|      |BlackBox name                |Instances |
++------+-----------------------------+----------+
+|1     |design_1_ADDER_0_0           |         1|
+|2     |design_1_ALU_0_0             |         1|
+|3     |design_1_Condition_Check_0_2 |         1|
+|4     |design_1_ControlUnit_0_0     |         1|
+|5     |design_1_ForwardingUnit_0_0  |         1|
+|6     |design_1_HazardUnit_0_0      |         1|
+|7     |design_1_IF_0_0              |         1|
+|8     |design_1_MUX4_0_0            |         1|
+|9     |design_1_MUX9_0_0            |         1|
+|10    |design_1_MUX_0_0             |         1|
+|11    |design_1_NOT1_0_0            |         1|
+|12    |design_1_NOT1_0_1            |         1|
+|13    |design_1_NOT1_2_0            |         1|
+|14    |design_1_OR1_0_0             |         1|
+|15    |design_1_OR1_1_0             |         1|
+|16    |design_1_OR1_2_0             |         1|
+|17    |design_1_Register13_0_0      |         1|
+|18    |design_1_Register1_0_0       |         1|
+|19    |design_1_Register1_1_1       |         1|
+|20    |design_1_Register1_1_2       |         1|
+|21    |design_1_Register24_0_0      |         1|
+|22    |design_1_Register3_0_0       |         1|
+|23    |design_1_Register4_0_0       |         1|
+|24    |design_1_Register4_1_0       |         1|
+|25    |design_1_Register4_1_1       |         1|
+|26    |design_1_Register4_3_0       |         1|
+|27    |design_1_Register4_3_1       |         1|
+|28    |design_1_Register9_0_0       |         1|
+|29    |design_1_RegisterFile_0_0    |         1|
+|30    |design_1_Register_0_0        |         1|
+|31    |design_1_Register_0_1        |         1|
+|32    |design_1_Register_2_0        |         1|
+|33    |design_1_Register_3_0        |         1|
+|34    |design_1_Register_0_4        |         1|
+|35    |design_1_Register_1_0        |         1|
+|36    |design_1_Register_1_1        |         1|
+|37    |design_1_Register_2_1        |         1|
+|38    |design_1_Register_3_1        |         1|
+|39    |design_1_Status_Register_0_1 |         1|
+|40    |design_1_Val2Genrate_0_0     |         1|
+|41    |design_1_debouncer_0_0       |         1|
+|42    |design_1_dist_mem_gen_0_0    |         1|
+|43    |design_1_dist_mem_gen_1_0    |         1|
+|44    |design_1_ila_0_0             |         1|
+|45    |design_1_mux3to1_0_0         |         1|
+|46    |design_1_mux3to1_1_0         |         1|
+|47    |design_1_sign_extend_0_0     |         1|
+|48    |design_1_vio_0_0             |         1|
++------+-----------------------------+----------+
+
+Report Cell Usage: 
++------+-----------------------------+------+
+|      |Cell                         |Count |
++------+-----------------------------+------+
+|1     |design_1_ADDER_0_0           |     1|
+|2     |design_1_ALU_0_0             |     1|
+|3     |design_1_Condition_Check_0_2 |     1|
+|4     |design_1_ControlUnit_0_0     |     1|
+|5     |design_1_ForwardingUnit_0_0  |     1|
+|6     |design_1_HazardUnit_0_0      |     1|
+|7     |design_1_IF_0_0              |     1|
+|8     |design_1_MUX4_0_0            |     1|
+|9     |design_1_MUX9_0_0            |     1|
+|10    |design_1_MUX_0_0             |     1|
+|11    |design_1_NOT1_0_0            |     1|
+|12    |design_1_NOT1_0_1            |     1|
+|13    |design_1_NOT1_2_0            |     1|
+|14    |design_1_OR1_0_0             |     1|
+|15    |design_1_OR1_1_0             |     1|
+|16    |design_1_OR1_2_0             |     1|
+|17    |design_1_Register13_0_0      |     1|
+|18    |design_1_Register1_0_0       |     1|
+|19    |design_1_Register1_1_1       |     1|
+|20    |design_1_Register1_1_2       |     1|
+|21    |design_1_Register24_0_0      |     1|
+|22    |design_1_Register3_0_0       |     1|
+|23    |design_1_Register4_0_0       |     1|
+|24    |design_1_Register4_1_0       |     1|
+|25    |design_1_Register4_1_1       |     1|
+|26    |design_1_Register4_3_0       |     1|
+|27    |design_1_Register4_3_1       |     1|
+|28    |design_1_Register9_0_0       |     1|
+|29    |design_1_RegisterFile_0_0    |     1|
+|30    |design_1_Register_0_0        |     1|
+|31    |design_1_Register_0_1        |     1|
+|32    |design_1_Register_0_4        |     1|
+|33    |design_1_Register_1_0        |     1|
+|34    |design_1_Register_1_1        |     1|
+|35    |design_1_Register_2_0        |     1|
+|36    |design_1_Register_2_1        |     1|
+|37    |design_1_Register_3_0        |     1|
+|38    |design_1_Register_3_1        |     1|
+|39    |design_1_Status_Register_0_1 |     1|
+|40    |design_1_Val2Genrate_0_0     |     1|
+|41    |design_1_debouncer_0_0       |     1|
+|42    |design_1_dist_mem_gen_0_0    |     1|
+|43    |design_1_dist_mem_gen_1_0    |     1|
+|44    |design_1_ila_0_0             |     1|
+|45    |design_1_mux3to1_0_0         |     1|
+|46    |design_1_mux3to1_1_0         |     1|
+|47    |design_1_sign_extend_0_0     |     1|
+|48    |design_1_vio_0_0             |     1|
+|49    |IBUF                         |     2|
++------+-----------------------------+------+
+
+Report Instance Areas: 
++------+-----------------+------------------------+------+
+|      |Instance         |Module                  |Cells |
++------+-----------------+------------------------+------+
+|1     |top              |                        |  1016|
+|2     |  design_1_i     |design_1                |  1014|
+|3     |    xlconcat_0   |design_1_xlconcat_0_0   |     0|
+|4     |    xlconcat_1   |design_1_xlconcat_1_0   |     0|
+|5     |    xlconstant_0 |design_1_xlconstant_0_1 |     0|
+|6     |    xlconstant_2 |design_1_xlconstant_2_1 |     0|
+|7     |    xlconstant_3 |design_1_xlconstant_3_0 |     0|
+|8     |    xlconstant_9 |design_1_xlconstant_9_0 |     0|
+|9     |    xlslice_0    |design_1_xlslice_0_0    |     0|
+|10    |    xlslice_1    |design_1_xlslice_0_1    |     0|
+|11    |    xlslice_10   |design_1_xlslice_9_1    |     0|
+|12    |    xlslice_11   |design_1_xlslice_11_0   |     0|
+|13    |    xlslice_12   |design_1_xlslice_10_1   |     0|
+|14    |    xlslice_13   |design_1_xlslice_13_0   |     0|
+|15    |    xlslice_14   |design_1_xlslice_14_0   |     0|
+|16    |    xlslice_15   |design_1_xlslice_14_1   |     0|
+|17    |    xlslice_16   |design_1_xlslice_16_0   |     0|
+|18    |    xlslice_17   |design_1_xlslice_17_0   |     0|
+|19    |    xlslice_18   |design_1_xlslice_18_0   |     0|
+|20    |    xlslice_19   |design_1_xlslice_19_0   |     0|
+|21    |    xlslice_2    |design_1_xlslice_0_2    |     0|
+|22    |    xlslice_20   |design_1_xlslice_20_0   |     0|
+|23    |    xlslice_21   |design_1_xlslice_20_1   |     0|
+|24    |    xlslice_22   |design_1_xlslice_20_2   |     0|
+|25    |    xlslice_23   |design_1_xlslice_23_0   |     0|
+|26    |    xlslice_3    |design_1_xlslice_3_0    |     0|
+|27    |    xlslice_4    |design_1_xlslice_3_1    |     0|
+|28    |    xlslice_5    |design_1_xlslice_5_2    |     0|
+|29    |    xlslice_6    |design_1_xlslice_6_0    |     0|
+|30    |    xlslice_7    |design_1_xlslice_6_1    |     0|
+|31    |    xlslice_8    |design_1_xlslice_6_2    |     0|
+|32    |    xlslice_9    |design_1_xlslice_9_0    |     0|
++------+-----------------+------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1014.562 ; gain = 488.164
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 411 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 1014.562 ; gain = 162.914
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1014.562 ; gain = 488.164
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1023.211 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+275 Infos, 103 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1023.211 ; gain = 505.457
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1023.211 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.runs/synth_1/design_1_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jun  3 15:02:56 2025...

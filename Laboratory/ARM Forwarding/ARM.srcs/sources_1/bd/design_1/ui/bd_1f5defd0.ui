@@ -1,0 +1,184 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "PinnedBlocks":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port clk_0 -pg 1 -y 570 -defaultsOSRD
+preplace portBus SIGNAL_I_0 -pg 1 -y 410 -defaultsOSRD
+preplace inst xlslice_7 -pg 1 -lvl 6 -y 830 -defaultsOSRD
+preplace inst xlslice_8 -pg 1 -lvl 6 -y 730 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 30 -y 660 -defaultsOSRD
+preplace inst ForwardingUnit_0 -pg 1 -lvl 20 -y 1930 -defaultsOSRD
+preplace inst xlconstant_9 -pg 1 -lvl 20 -y 1140 -defaultsOSRD
+preplace inst xlslice_9 -pg 1 -lvl 14 -y 1080 -defaultsOSRD
+preplace inst Register4_0 -pg 1 -lvl 17 -y 1320 -defaultsOSRD
+preplace inst Register9_0 -pg 1 -lvl 17 -y 240 -defaultsOSRD
+preplace inst ALU_0 -pg 1 -lvl 22 -y 1190 -defaultsOSRD
+preplace inst Register4_1 -pg 1 -lvl 25 -y 950 -defaultsOSRD
+preplace inst Register4_2 -pg 1 -lvl 28 -y 1050 -defaultsOSRD
+preplace inst xlslice_10 -pg 1 -lvl 14 -y 1180 -defaultsOSRD
+preplace inst Register4_3 -pg 1 -lvl 17 -y 1680 -defaultsOSRD
+preplace inst xlslice_11 -pg 1 -lvl 3 -y 820 -defaultsOSRD
+preplace inst Register4_4 -pg 1 -lvl 17 -y 1860 -defaultsOSRD
+preplace inst xlslice_12 -pg 1 -lvl 14 -y 1280 -defaultsOSRD
+preplace inst xlslice_13 -pg 1 -lvl 14 -y 1380 -defaultsOSRD
+preplace inst xlslice_14 -pg 1 -lvl 20 -y 610 -defaultsOSRD
+preplace inst debouncer_0 -pg 1 -lvl 1 -y 450 -defaultsOSRD
+preplace inst xlslice_15 -pg 1 -lvl 20 -y 710 -defaultsOSRD
+preplace inst vio_0 -pg 1 -lvl 19 -y 2130 -defaultsOSRD
+preplace inst xlslice_16 -pg 1 -lvl 20 -y 510 -defaultsOSRD
+preplace inst Register13_0 -pg 1 -lvl 17 -y 960 -defaultsOSRD
+preplace inst xlslice_17 -pg 1 -lvl 20 -y 1400 -defaultsOSRD
+preplace inst NOT1_0 -pg 1 -lvl 10 -y 440 -defaultsOSRD
+preplace inst xlslice_18 -pg 1 -lvl 20 -y 260 -defaultsOSRD
+preplace inst NOT1_1 -pg 1 -lvl 9 -y 290 -defaultsOSRD
+preplace inst xlslice_19 -pg 1 -lvl 20 -y 390 -defaultsOSRD
+preplace inst NOT1_2 -pg 1 -lvl 5 -y 470 -defaultsOSRD
+preplace inst Register1_0 -pg 1 -lvl 17 -y 1500 -defaultsOSRD
+preplace inst RegisterFile_0 -pg 1 -lvl 15 -y 860 -defaultsOSRD
+preplace inst Register1_1 -pg 1 -lvl 28 -y 330 -defaultsOSRD
+preplace inst Register1_2 -pg 1 -lvl 28 -y 510 -defaultsOSRD
+preplace inst mux3to1_0 -pg 1 -lvl 21 -y 1140 -defaultsOSRD
+preplace inst sign_extend_0 -pg 1 -lvl 20 -y 1040 -defaultsOSRD
+preplace inst mux3to1_1 -pg 1 -lvl 20 -y 840 -defaultsOSRD
+preplace inst Register_0 -pg 1 -lvl 5 -y 610 -defaultsOSRD
+preplace inst xlslice_20 -pg 1 -lvl 26 -y 520 -defaultsOSRD
+preplace inst Register24_0 -pg 1 -lvl 17 -y 1140 -defaultsOSRD
+preplace inst Register_1 -pg 1 -lvl 17 -y 420 -defaultsOSRD
+preplace inst xlslice_21 -pg 1 -lvl 26 -y 620 -defaultsOSRD
+preplace inst Val2Genrate_0 -pg 1 -lvl 21 -y 880 -defaultsOSRD
+preplace inst xlslice_22 -pg 1 -lvl 26 -y 420 -defaultsOSRD
+preplace inst MUX_0 -pg 1 -lvl 29 -y 710 -defaultsOSRD
+preplace inst Register_2 -pg 1 -lvl 25 -y 570 -defaultsOSRD
+preplace inst xlslice_23 -pg 1 -lvl 26 -y 720 -defaultsOSRD
+preplace inst Register_3 -pg 1 -lvl 28 -y 690 -defaultsOSRD
+preplace inst IF_0 -pg 1 -lvl 2 -y 670 -defaultsOSRD
+preplace inst ControlUnit_0 -pg 1 -lvl 8 -y 670 -defaultsOSRD
+preplace inst Register_4 -pg 1 -lvl 5 -y 820 -defaultsOSRD
+preplace inst Register_5 -pg 1 -lvl 17 -y 600 -defaultsOSRD
+preplace inst dist_mem_gen_0 -pg 1 -lvl 4 -y 680 -defaultsOSRD
+preplace inst Register_6 -pg 1 -lvl 17 -y 780 -defaultsOSRD
+preplace inst dist_mem_gen_1 -pg 1 -lvl 27 -y 590 -defaultsOSRD
+preplace inst Register_7 -pg 1 -lvl 25 -y 750 -defaultsOSRD
+preplace inst ADDER_0 -pg 1 -lvl 22 -y 1040 -defaultsOSRD
+preplace inst Register_8 -pg 1 -lvl 28 -y 870 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 11 -y 670 -defaultsOSRD
+preplace inst HazardUnit_0 -pg 1 -lvl 8 -y 180 -defaultsOSRD
+preplace inst xlconcat_1 -pg 1 -lvl 15 -y 1090 -defaultsOSRD
+preplace inst OR1_0 -pg 1 -lvl 11 -y 280 -defaultsOSRD
+preplace inst Status_Register_0 -pg 1 -lvl 21 -y 1370 -defaultsOSRD
+preplace inst OR1_1 -pg 1 -lvl 12 -y 410 -defaultsOSRD
+preplace inst OR1_2 -pg 1 -lvl 21 -y 650 -defaultsOSRD
+preplace inst Register3_0 -pg 1 -lvl 25 -y 390 -defaultsOSRD
+preplace inst Condition_Check_0 -pg 1 -lvl 7 -y 500 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 23 -y 1020 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 11 -y 820 -defaultsOSRD
+preplace inst MUX4_0 -pg 1 -lvl 14 -y 940 -defaultsOSRD
+preplace inst MUX9_0 -pg 1 -lvl 13 -y 610 -defaultsOSRD
+preplace inst xlslice_1 -pg 1 -lvl 11 -y 920 -defaultsOSRD
+preplace inst xlconstant_2 -pg 1 -lvl 16 -y 1580 -defaultsOSRD
+preplace inst xlslice_2 -pg 1 -lvl 11 -y 1020 -defaultsOSRD
+preplace inst xlconstant_3 -pg 1 -lvl 11 -y 520 -defaultsOSRD
+preplace inst xlslice_3 -pg 1 -lvl 6 -y 510 -defaultsOSRD
+preplace inst xlslice_4 -pg 1 -lvl 8 -y 360 -defaultsOSRD
+preplace inst xlslice_5 -pg 1 -lvl 24 -y 330 -defaultsOSRD
+preplace inst xlslice_6 -pg 1 -lvl 6 -y 630 -defaultsOSRD
+preplace netloc xlslice_11_Dout 1 3 1 1080
+preplace netloc xlslice_2_Dout 1 11 3 3150 940 N 940 N
+preplace netloc xlslice_20_Dout 1 26 2 7530 500 7780
+preplace netloc RegisterFile_0_r1 1 15 15 4210 -40 N -40 N -40 N -40 N -40 N -40 N -40 N -40 N -40 N -40 N -40 N -40 N -40 N -40 8620
+preplace netloc RegisterFile_0_r2 1 15 15 4220 -30 N -30 N -30 N -30 N -30 N -30 N -30 N -30 N -30 N -30 N -30 N -30 N -30 N -30 8610
+preplace netloc Register_2_out 1 19 11 5560 330 5940 180 N 180 N 180 N 180 N 180 7280 310 N 310 7810 120 N 120 8460
+preplace netloc xlslice_17_Dout 1 20 1 N
+preplace netloc RegisterFile_0_r3 1 15 15 4230 -20 N -20 N -20 N -20 N -20 N -20 N -20 N -20 N -20 N -20 N -20 N -20 N -20 N -20 8600
+preplace netloc Register_8_out 1 28 2 8120 870 8360
+preplace netloc Condition_Check_0_cond_out 1 7 3 2080 490 2480 440 N
+preplace netloc NOT1_0_out 1 10 2 2870 420 N
+preplace netloc RegisterFile_0_r4 1 15 15 4250 -10 N -10 N -10 N -10 N -10 N -10 N -10 N -10 N -10 N -10 N -10 N -10 N -10 N -10 8580
+preplace netloc RegisterFile_0_r5 1 15 15 4270 0 N 0 N 0 N 0 N 0 N 0 N 0 N 0 N 0 N 0 N 0 N 0 N 0 N 0 8570
+preplace netloc xlconstant_3_dout 1 11 2 3130 610 NJ
+preplace netloc Status_Register_0__zcnv 1 6 16 1830 2060 N 2060 N 2060 N 2060 N 2060 N 2060 N 2060 N 2060 N 2060 N 2060 N 2060 N 2060 N 2060 N 2060 N 2060 6280
+preplace netloc MUX9_0_outt 1 13 4 3620 240 NJ 240 NJ 240 NJ
+preplace netloc RegisterFile_0_r6 1 15 15 4280 10 N 10 N 10 N 10 N 10 N 10 N 10 N 10 N 10 N 10 N 10 N 10 N 10 N 10 8560
+preplace netloc xlconcat_1_dout 1 15 2 4240 960 N
+preplace netloc ControlUnit_0_EXE_CMD 1 8 3 N 620 N 620 N
+preplace netloc RegisterFile_0_reg1 1 15 2 4240 600 N
+preplace netloc xlconcat_0_dout 1 11 2 3160 620 3370
+preplace netloc xlslice_16_Dout 1 20 2 NJ 510 6290
+preplace netloc RegisterFile_0_reg2 1 15 2 4260 780 N
+preplace netloc Register_6_out 1 17 13 N 780 N 780 5550 450 N 450 N 450 N 450 N 450 7000 170 N 170 N 170 7760 140 N 140 8480
+preplace netloc Register_3_out 1 28 2 8120 630 8370
+preplace netloc xlslice_3_Dout 1 6 1 N
+preplace netloc xlslice_10_Dout 1 14 1 3890
+preplace netloc xlslice_12_Dout 1 14 3 N 1280 4250 1140 N
+preplace netloc xlslice_5_Dout 1 7 18 2170 40 N 40 N 40 N 40 N 40 N 40 N 40 3860 50 N 50 N 50 N 50 N 50 5490 70 N 70 6310 80 N 80 N 80 6980
+preplace netloc Register4_0_out 1 7 23 2090 20 N 20 N 20 N 20 N 20 N 20 N 20 3900 30 4260 60 N 60 4890 160 N 160 N 160 5950 200 6300 210 N 210 N 210 7040 210 N 210 N 210 7800 180 N 180 8430
+preplace netloc xlconstant_1_dout 1 7 13 2120 1970 N 1970 N 1970 N 1970 N 1970 N 1970 N 1970 N 1970 N 1970 N 1970 N 1970 N 1970 5470
+preplace netloc dist_mem_gen_1_spo 1 27 1 7780
+preplace netloc Register_1_out 1 17 13 4910 320 N 320 N 320 N 320 6340 70 N 70 N 70 N 70 N 70 N 70 N 70 N 70 8530
+preplace netloc ForwardingUnit_0_sel1 1 20 1 5940
+preplace netloc xlslice_21_Dout 1 26 1 N
+preplace netloc MUX_0_out 1 14 16 3900 70 N 70 N 70 4870 90 N 90 5460 110 5900 190 N 190 N 190 N 190 N 190 7290 180 N 180 7770 150 N 150 8400
+preplace netloc xlslice_7_Dout 1 6 2 1820 690 N
+preplace netloc ForwardingUnit_0_sel2 1 19 2 5560 930 5850
+preplace netloc Register9_0_out 1 17 13 N 240 N 240 5540 190 5860 220 6280 230 N 230 N 230 N 230 N 230 N 230 7820 200 N 200 8470
+preplace netloc ControlUnit_0_B 1 8 3 N 660 N 660 N
+preplace netloc xlslice_4_Dout 1 8 1 2430
+preplace netloc OR1_0_out 1 7 5 2080 -10 N -10 N -10 N -10 3130
+preplace netloc Register_4_out 1 5 25 1600 420 N 420 2100 510 N 510 N 510 2920 450 3150 500 N 500 3610 80 N 80 N 80 N 80 4880 70 N 70 5480 80 N 80 6300 90 N 90 N 90 N 90 N 90 N 90 N 90 N 90 8540
+preplace netloc xlslice_1_Dout 1 11 3 N 920 N 920 N
+preplace netloc dist_mem_gen_0_spo 1 4 1 1300
+preplace netloc Register13_0_out 1 17 13 4920 200 NJ 200 NJ 200 5880J 240 N 240 N 240 N 240 N 240 N 240 N 240 7830 210 N 210 8410
+preplace netloc NOT1_2_out 1 4 2 1340 710 1590
+preplace netloc Register1_2_out 1 28 2 8110 880 N
+preplace netloc xlslice_0_Dout 1 7 10 2160 440 2460 390 2680 380 2870 390 3140 730 N 730 N 730 3870 730 N 730 4470
+preplace netloc OR1_1_out 1 12 1 3360
+preplace netloc xlslice_22_Dout 1 7 21 2140 0 2440 100 N 100 N 100 N 100 N 100 N 100 N 100 N 100 N 100 4850 130 N 130 5520 130 N 130 N 130 N 130 N 130 N 130 N 130 7510 330 N
+preplace netloc Register4_3_outt 1 17 3 N 1680 N 1680 5460
+preplace netloc ControlUnit_0_MEM_W_EN 1 8 6 N 700 N 700 2900 380 3170 340 N 340 3600
+preplace netloc Register1_0_out 1 17 13 4920 1230 N 1230 N 1230 N 1230 6310J 200 N 200 N 200 N 200 7300 190 N 190 7780 160 N 160 8440
+preplace netloc clk_0_1 1 0 30 0J 570 300J 570 860 620 N 620 1330 400 N 400 N 400 2080 450 N 450 2690 350 N 350 3140 320 N 320 N 320 3890 320 N 320 4520 120 N 120 5090 170 N 170 5870 270 N 270 N 270 N 270 7010 290 N 290 7520 290 7870 230 N 230 8500
+preplace netloc xlslice_23_Dout 1 26 1 7550
+preplace netloc xlconstant_2_dout 1 16 12 4490 130 4840 150 N 150 N 150 5920 260 N 260 N 260 N 260 6990 300 N 300 N 300 7760
+preplace netloc MUX4_0_out 1 7 10 2170 500 N 500 N 500 2910 460 3160 480 N 480 N 480 3860 1020 N 1020 4460
+preplace netloc xlslice_6_Dout 1 6 2 N 630 2080
+preplace netloc ControlUnit_0_WB_EN 1 8 3 N 720 N 720 N
+preplace netloc Register_7_out 1 25 5 7300 360 7540J 160 7750 130 N 130 8450
+preplace netloc xlslice_8_Dout 1 6 2 1810 670 N
+preplace netloc ControlUnit_0_MEM_R_EN 1 8 3 N 680 N 680 N
+preplace netloc ADDER_0_sum 1 1 22 300 2050 N 2050 N 2050 N 2050 N 2050 N 2050 N 2050 N 2050 N 2050 N 2050 N 2050 N 2050 N 2050 N 2050 N 2050 N 2050 N 2050 N 2050 N 2050 N 2050 N 2050 6600
+preplace netloc mux3to1_1_outt 1 20 5 5950 750 N 750 N 750 N 750 N
+preplace netloc Register1_1_out 1 14 16 3910 90 N 90 N 90 4860 100 N 100 5500 50 N 50 N 50 N 50 N 50 N 50 N 50 N 50 N 50 8120 620 8380
+preplace netloc SIGNAL_I_0_1 1 0 1 0
+preplace netloc OR1_2_out 1 20 2 5960 720 6280
+preplace netloc SIGNAL_I_0_2 1 1 29 310 450 N 450 N 450 1310 390 N 390 N 390 2110 420 N 420 2670 340 2890 430 3170 490 N 490 N 490 3880 490 N 490 4480 110 N 110 N 110 5450 120 5890 250 N 250 N 250 N 250 7030 250 N 250 N 250 7860 220 N 220 8510
+preplace netloc Register_5_out 1 17 13 4900 80 N 80 5470 90 5930 100 N 100 N 100 N 100 N 100 N 100 N 100 N 100 N 100 8520
+preplace netloc Register24_0_outt 1 17 13 N 1140 N 1140 5510 100 5920 110 N 110 N 110 N 110 N 110 N 110 N 110 N 110 N 110 8490
+preplace netloc xlconstant_9_dout 1 20 2 5920 1050 6300
+preplace netloc xlslice_14_Dout 1 7 14 2130 10 N 10 N 10 N 10 N 10 N 10 N 10 3910 20 N 20 4480 30 N 30 N 30 5510 60 5960
+preplace netloc NOT1_1_out 1 9 2 N 290 NJ
+preplace netloc Register3_0_out 1 25 5 7310 200 N 200 7790 170 N 170 8420
+preplace netloc ControlUnit_0_S 1 8 3 N 640 N 640 N
+preplace netloc Register4_4_outt 1 17 3 N 1860 N 1860 5450
+preplace netloc Status_Register_0_c 1 16 6 4530 2070 N 2070 N 2070 N 2070 N 2070 6270
+preplace netloc IF_0_PC 1 2 28 850J 610 N 610 1290 -50 N -50 N -50 N -50 N -50 N -50 N -50 N -50 N -50 N -50 N -50 N -50 N -50 N -50 N -50 N -50 N -50 N -50 N -50 N -50 N -50 N -50 N -50 N -50 N -50 8590
+preplace netloc IF_0_PC_ADDR 1 2 1 850
+preplace netloc xlslice_15_Dout 1 20 1 5920
+preplace netloc Register_0_outt 1 5 25 1610 570 NJ 570 2080J 560 2470J 380 2660J 330 2920J 360 3130J 310 NJ 310 NJ 310 NJ 310 NJ 310 4510J 20 N 20 N 20 N 20 N 20 N 20 N 20 N 20 N 20 N 20 N 20 N 20 N 20 8550
+preplace netloc Register4_1_out 1 7 23 2150 30 N 30 N 30 N 30 N 30 N 30 N 30 3870 40 N 40 N 40 4920 180 N 180 5480 180 5910 210 6290 220 N 220 N 220 N 220 7290 220 N 220 7840 190 N 190 8390
+preplace netloc HazardUnit_0_hazard 1 1 11 320 470 N 470 N 470 1300 380 N 380 N 380 2090 460 2440 360 N 360 2880 400 N
+preplace netloc xlslice_9_Dout 1 14 1 N
+preplace netloc mux3to1_0_outt 1 21 1 6270
+preplace netloc xlconstant_0_dout 1 23 5 N 1020 7020 850 N 850 N 850 7850
+preplace netloc xlslice_13_Dout 1 14 3 NJ 1380 N 1380 4510
+preplace netloc sign_extend_0_out 1 20 2 N 1040 N
+preplace netloc ALU_0_zcnv 1 20 3 5960 1240 6330J 960 6610
+preplace netloc Val2Genrate_0_out 1 21 1 6280
+preplace netloc ALU_0_result 1 22 3 6620 570 N 570 N
+preplace netloc xlslice_19_Dout 1 20 5 N 390 NJ 390 N 390 6780 400 N
+preplace netloc Register4_2_out 1 14 16 3920 1960 N 1960 N 1960 N 1960 N 1960 5530 960 N 960 6320 950 N 950 N 950 6980 1150 N 1150 N 1150 N 1150 8110 940 N
+preplace netloc xlslice_18_Dout 1 1 20 330 770 860 760 N 760 1320 410 1590 430 N 430 N 430 2450 370 N 370 N 370 3160 330 N 330 N 330 N 330 N 330 4500 140 N 140 N 140 N 140 5850
+levelinfo -pg 1 -20 160 690 980 1190 1470 1710 1960 2300 2570 2780 3030 3270 3490 3750 4070 4380 4720 5070 5350 5720 6120 6470 6700 6880 7160 7410 7650 7990 8240 8710 8810 -top -330 -bot 2200
+"
+}
+0

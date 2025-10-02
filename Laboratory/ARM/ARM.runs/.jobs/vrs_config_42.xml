@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_1_ila_0_0_synth_1" LaunchDir="D:/Reza/Computer Architecture/Lab/ARM/ARM.runs/design_1_ila_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_OR1_2_0_synth_1" LaunchDir="D:/Reza/Computer Architecture/Lab/ARM/ARM.runs/design_1_OR1_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_Val2Genrate_0_0_synth_1" LaunchDir="D:/Reza/Computer Architecture/Lab/ARM/ARM.runs/design_1_Val2Genrate_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_sign_extend_0_0_synth_1" LaunchDir="D:/Reza/Computer Architecture/Lab/ARM/ARM.runs/design_1_sign_extend_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_ADDER_0_0_synth_1" LaunchDir="D:/Reza/Computer Architecture/Lab/ARM/ARM.runs/design_1_ADDER_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_Status_Register_0_1_synth_1" LaunchDir="D:/Reza/Computer Architecture/Lab/ARM/ARM.runs/design_1_Status_Register_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_ALU_0_0_synth_1" LaunchDir="D:/Reza/Computer Architecture/Lab/ARM/ARM.runs/design_1_ALU_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_Register1_0_0_synth_1" LaunchDir="D:/Reza/Computer Architecture/Lab/ARM/ARM.runs/design_1_Register1_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_Register4_1_0_synth_1" LaunchDir="D:/Reza/Computer Architecture/Lab/ARM/ARM.runs/design_1_Register4_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_Register_2_0_synth_1" LaunchDir="D:/Reza/Computer Architecture/Lab/ARM/ARM.runs/design_1_Register_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_Register_1_0_synth_1" LaunchDir="D:/Reza/Computer Architecture/Lab/ARM/ARM.runs/design_1_Register_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_Register_1_1_synth_1" LaunchDir="D:/Reza/Computer Architecture/Lab/ARM/ARM.runs/design_1_Register_1_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_Register3_0_0_synth_1" LaunchDir="D:/Reza/Computer Architecture/Lab/ARM/ARM.runs/design_1_Register3_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_Register_2_1_synth_1" LaunchDir="D:/Reza/Computer Architecture/Lab/ARM/ARM.runs/design_1_Register_2_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_IF_0_0_synth_1" LaunchDir="D:/Reza/Computer Architecture/Lab/ARM/ARM.runs/design_1_IF_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_debouncer_0_0_synth_1" LaunchDir="D:/Reza/Computer Architecture/Lab/ARM/ARM.runs/design_1_debouncer_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="D:/Reza/Computer Architecture/Lab/ARM/ARM.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="design_1_ila_0_0_synth_1"/>
+		<Parent Id="design_1_OR1_2_0_synth_1"/>
+		<Parent Id="design_1_Val2Genrate_0_0_synth_1"/>
+		<Parent Id="design_1_sign_extend_0_0_synth_1"/>
+		<Parent Id="design_1_ADDER_0_0_synth_1"/>
+		<Parent Id="design_1_Status_Register_0_1_synth_1"/>
+		<Parent Id="design_1_ALU_0_0_synth_1"/>
+		<Parent Id="design_1_Register1_0_0_synth_1"/>
+		<Parent Id="design_1_Register4_1_0_synth_1"/>
+		<Parent Id="design_1_Register_2_0_synth_1"/>
+		<Parent Id="design_1_Register_1_0_synth_1"/>
+		<Parent Id="design_1_Register_1_1_synth_1"/>
+		<Parent Id="design_1_Register3_0_0_synth_1"/>
+		<Parent Id="design_1_Register_2_1_synth_1"/>
+		<Parent Id="design_1_IF_0_0_synth_1"/>
+		<Parent Id="design_1_debouncer_0_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

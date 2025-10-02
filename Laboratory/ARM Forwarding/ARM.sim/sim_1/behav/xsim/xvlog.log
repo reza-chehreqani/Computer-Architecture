@@ -1,0 +1,210 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/new/ADDER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADDER
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/new/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/new/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/new/IF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/new/MUX4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/new/OR1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/new/MUX9.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX9
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/new/NOT1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NOT1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/new/Condition_Check.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Condition_Check
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/new/Register9.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register9
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/new/Register13.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register13
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/new/Register24.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register24
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/new/Register4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/new/Val2Genrate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Val2Genrate
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/new/sign_extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/new/Status_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Status_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Reza/Downloads/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/new/Register1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/new/Register3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/new/Hazard.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HazardUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/new/Forwarding.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ForwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/new/mux3to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux3to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_IF_0_0/sim/design_1_IF_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_IF_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_Register_0_0/sim/design_1_Register_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_Register_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_Register_0_1/sim/design_1_Register_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_Register_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlconstant_2_1/sim/design_1_xlconstant_2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlconstant_2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_ila_0_0/sim/design_1_ila_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_ila_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/sim/design_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_Register_0_4/sim/design_1_Register_0_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_Register_0_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_ControlUnit_0_0/sim/design_1_ControlUnit_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_ControlUnit_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_RegisterFile_0_0/sim/design_1_RegisterFile_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_RegisterFile_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlslice_0_0/sim/design_1_xlslice_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlslice_0_1/sim/design_1_xlslice_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlslice_0_2/sim/design_1_xlslice_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_MUX4_0_0/sim/design_1_MUX4_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_MUX4_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_Register_1_0/sim/design_1_Register_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_Register_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_Register_1_1/sim/design_1_Register_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_Register_1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_OR1_0_0/sim/design_1_OR1_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_OR1_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlslice_3_0/sim/design_1_xlslice_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlslice_3_1/sim/design_1_xlslice_3_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_MUX9_0_0/sim/design_1_MUX9_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_MUX9_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlconcat_0_0/sim/design_1_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlconstant_3_0/sim/design_1_xlconstant_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlconstant_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_OR1_1_0/sim/design_1_OR1_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_OR1_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_NOT1_0_0/sim/design_1_NOT1_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_NOT1_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_NOT1_0_1/sim/design_1_NOT1_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_NOT1_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlslice_6_0/sim/design_1_xlslice_6_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_6_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlslice_6_1/sim/design_1_xlslice_6_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_6_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlslice_6_2/sim/design_1_xlslice_6_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_6_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_Condition_Check_0_2/sim/design_1_Condition_Check_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_Condition_Check_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_dist_mem_gen_0_0/sim/design_1_dist_mem_gen_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_dist_mem_gen_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_Register9_0_0/sim/design_1_Register9_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_Register9_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_Register13_0_0/sim/design_1_Register13_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_Register13_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlconcat_1_0/sim/design_1_xlconcat_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlconcat_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlslice_9_0/sim/design_1_xlslice_9_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_9_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlslice_9_1/sim/design_1_xlslice_9_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_9_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlslice_10_1/sim/design_1_xlslice_10_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_10_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_Register24_0_0/sim/design_1_Register24_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_Register24_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlslice_13_0/sim/design_1_xlslice_13_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_13_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_Register4_0_0/sim/design_1_Register4_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_Register4_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_OR1_2_0/sim/design_1_OR1_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_OR1_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlslice_14_0/sim/design_1_xlslice_14_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_14_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlslice_14_1/sim/design_1_xlslice_14_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_14_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_Val2Genrate_0_0/sim/design_1_Val2Genrate_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_Val2Genrate_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlslice_16_0/sim/design_1_xlslice_16_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_16_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_sign_extend_0_0/sim/design_1_sign_extend_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_sign_extend_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_ADDER_0_0/sim/design_1_ADDER_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_ADDER_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlconstant_9_0/sim/design_1_xlconstant_9_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlconstant_9_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_Status_Register_0_1/sim/design_1_Status_Register_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_Status_Register_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlslice_17_0/sim/design_1_xlslice_17_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_17_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_ALU_0_0/sim/design_1_ALU_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_ALU_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlslice_18_0/sim/design_1_xlslice_18_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_18_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_Register1_0_0/sim/design_1_Register1_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_Register1_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlslice_19_0/sim/design_1_xlslice_19_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_19_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_Register3_0_0/sim/design_1_Register3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_Register3_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_Register4_1_0/sim/design_1_Register4_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_Register4_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_Register_2_0/sim/design_1_Register_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_Register_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_Register_2_1/sim/design_1_Register_2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_Register_2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlconstant_0_1/sim/design_1_xlconstant_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlconstant_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_debouncer_0_0/sim/design_1_debouncer_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_debouncer_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_dist_mem_gen_1_0/sim/design_1_dist_mem_gen_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_dist_mem_gen_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlslice_20_0/sim/design_1_xlslice_20_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_20_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlslice_20_1/sim/design_1_xlslice_20_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_20_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlslice_20_2/sim/design_1_xlslice_20_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_20_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_Register1_1_1/sim/design_1_Register1_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_Register1_1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_Register1_1_2/sim/design_1_Register1_1_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_Register1_1_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_Register4_1_1/sim/design_1_Register4_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_Register4_1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_Register_3_0/sim/design_1_Register_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_Register_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_Register_3_1/sim/design_1_Register_3_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_Register_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_MUX_0_0/sim/design_1_MUX_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_MUX_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_HazardUnit_0_0/sim/design_1_HazardUnit_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_HazardUnit_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlslice_23_0/sim/design_1_xlslice_23_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_23_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlslice_5_2/sim/design_1_xlslice_5_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_5_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_NOT1_2_0/sim/design_1_NOT1_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_NOT1_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlslice_11_0/sim/design_1_xlslice_11_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlslice_11_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_ForwardingUnit_0_0/sim/design_1_ForwardingUnit_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_ForwardingUnit_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_Register4_3_0/sim/design_1_Register4_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_Register4_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_Register4_3_1/sim/design_1_Register4_3_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_Register4_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_mux3to1_0_0/sim/design_1_mux3to1_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_mux3to1_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_mux3to1_1_0/sim/design_1_mux3to1_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_mux3to1_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.ip_user_files/bd/design_1/ip/design_1_xlconstant_1_1/sim/design_1_xlconstant_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_xlconstant_1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Reza/Computer Architecture/Lab/ARM Forwarding/ARM.srcs/sim_1/new/TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB

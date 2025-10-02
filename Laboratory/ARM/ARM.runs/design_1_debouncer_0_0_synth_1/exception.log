@@ -1,0 +1,4 @@
+ERROR: Exception caught trying to open file D:\Reza\Computer Architecture\Lab\ARM\ARM.runs\design_1_debouncer_0_0_synth_1/runme.log
+	Exception name: Error
+	Exception error code: 70
+	Exception message: Permission denied
